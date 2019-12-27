@@ -1,7 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {ApplicationRef, NgModule} from '@angular/core';
-
-
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -14,9 +12,6 @@ import { AppComponent } from './app.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-
-
-
 export class AppModule {
   constructor(applicationRef: ApplicationRef) {
     const originalTick = applicationRef.tick;
